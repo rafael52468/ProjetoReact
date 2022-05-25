@@ -1,12 +1,7 @@
 import React from 'react'
 import { AppContainer } from '../src/components/AppContainerComponent'
+import { AppInput } from '../src/components/AppInputComponent'
 
-const AppInput = props => (
-  <div>
-    <label>{props.label}</label>
-    <input type={props.type} title={props.title} />
-  </div>
-)
 const AppButton = props => (
   <div>
     <input type="submit" title={props.title} />
