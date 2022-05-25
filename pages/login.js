@@ -1,12 +1,7 @@
 import React from 'react'
 import { AppContainer } from '../src/components/AppContainerComponent'
 import { AppInput } from '../src/components/AppInputComponent'
-
-const AppButton = props => (
-  <div>
-    <input type="submit" title={props.title} />
-  </div>
-)
+import { AppButton } from '../src/components/AppButtonComponent'
 
 const Login = props => {
   return (
